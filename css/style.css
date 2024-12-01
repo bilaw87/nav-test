@@ -1,0 +1,40 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+nav {
+	height: 50px;
+	background-color: navy;
+	line-height: 50px;
+	text-align: center;
+	font-size: 0px;
+}
+nav li {
+	display: inline-block;
+
+}
+
+nav li a {
+	font-size: 18px;
+	padding: 0 20px;
+	color: white;
+	transition: color 0.4s;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+nav li a:hover {
+	color: royalblue;
+}
+
+
+/* Zadanie: Nawigacja
+Stwórz poziome menu nawigacyjne zawierające 4 odnośniki (Strona główna, O nas, Oferta, Kontakt). Menu powinno:
+
+
+mieć tło w kolorze granatowym
+odnośniki powinny być białe
+po najechaniu myszką na odnośnik, powinien zmieniać kolor na jasnoniebieski
+odstępy między odnośnikami powinny wynosić 20px */
